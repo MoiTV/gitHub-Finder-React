@@ -21,7 +21,7 @@ class Users extends Component {
             hireable
         } = this.props.user;
 
-        const { loading } = this.props;
+        const { loadin } = this.props;
 
         return <div>{name}</div>;
     }
